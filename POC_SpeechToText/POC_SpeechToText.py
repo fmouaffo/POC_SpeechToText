@@ -12,8 +12,8 @@ import urllib
 import json
 import datetime
 
-AWS_ACCESS_KEY_ID = 'AKIA364VHD6GTD2JAHXR'
-AWS_SECRET_ACCESS_KEY = 'x6qy7opuJzoaYuR1wjviirnST5bSUlNNJyHwR0Md'
+AWS_ACCESS_KEY_ID = 'YourAccessKeyID'
+AWS_SECRET_ACCESS_KEY = 'YourSecretAccessKey'
 
 job_name = f"myFirstJobTranscribeFlo2-{datetime.datetime.now().timestamp()}"
 job_uri = 'https://my-bucket-fms-1.s3.eu-west-3.amazonaws.com/folder1/test1.mp3'
